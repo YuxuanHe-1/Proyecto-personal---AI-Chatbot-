@@ -17,7 +17,7 @@ class tasks(BaseModel):
 
 @app.get("/get")
 def get():
-    return {"message":"this is a basic test of my api"}
+    return {"message":"soy eslenderman estos son mis bosques, eslenderman voy a asesinarte"}
 
 @app.post("/post")
 def post(task: tasks):
