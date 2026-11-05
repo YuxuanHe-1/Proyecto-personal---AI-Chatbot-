@@ -23,32 +23,11 @@ A complete, high-performance web application featuring a fast client-side fronte
 
 ---
 
-## 🚦 Core API Endpoints
+## API Endpoint
 
 ### 1. Connection Verification (`GET`)
-* **URL:** `https://onrender.com`
-* **Response:** `{"message": "slenderman"}`
-
-### 2. Message Engine (`POST`)
-* **URL:** `https://onrender.com`
-* **Payload:** `{"task_name": "string"}`
-
----
-
-## 💻 Fast Local Setup
-
-1. **Navigate to the backend:**
-   ```bash
-   cd backend
-   ```
-2. **Install requirements:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Launch the local development server:**
-   ```bash
-   uvicorn main:app --reload
-   ```
+* **URL:** `[https://onrender.com](https://proyecto-personal-ai-chatbot.onrender.com/get)`
+* **Response:** `{"message":"soy eslenderman estos son mis bosques, eslenderman voy a asesinarte"}`
 
 ---
 
