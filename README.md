@@ -25,8 +25,8 @@ A complete, high-performance web application featuring a fast client-side fronte
 
 ## API Endpoint
 
-### 1. Connection Verification (`GET`)
-* **URL:** `[https://onrender.com](https://proyecto-personal-ai-chatbot.onrender.com/get)`
+### 1.(`GET`)
+* **URL:** `https://proyecto-personal-ai-chatbot.onrender.com/get`
 * **Response:** `{"message":"soy eslenderman estos son mis bosques, eslenderman voy a asesinarte"}`
 
 ---
