@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Inter Local';
+    src: url('assets/Inter.ttf') format('truetype');
+    font-weight: 100 900; 
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-color: #18181c;
+    font-family: 'Inter Local', system-ui, -apple-system, sans-serif;
+}
+
+.prompt-container{
+    position: fixed;
+    display: flex;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.prompt{
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222226;
+    border: 2px solid #3a3a42;
+    color: #ffffff;
+    font-family: 'Inter Local', system-ui, -apple-system, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    max-height: 164px;
+    height: auto;
+    padding: 10px;
+    border-radius: 25px;
+    resize: none;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+
+.prompt::-webkit-scrollbar { display: none; }
+
+.prompt:hover{
+    border-color: #999
+}
+
+.prompt:focus{
+    outline: none;
+}
+
+.submit-prompt{
+    background-color: #4d6cfa;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 50%;
+    min-width: 48px;
+    min-height: 48px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.submit-prompt:hover {
+    background-color: #3b5bdb;
+    color: #ffffff;
+}
+
+.messages{
+    margin-top: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: flex-start;
+    margin-right: 15px;
+    font-family: 'Inter Local', system-ui, -apple-system, sans-serif;
+    margin-bottom: 80px;
+}
+
+.user{
+    align-self: flex-end;
+    background-color: #222226;
+    color: #ffffff;
+    max-width: 70%;
+    width: fit-content;
+    padding: 12px 16px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+    scroll-margin-bottom: 70px;
+}
+
+.user p{
+    margin: 0px;
+}
