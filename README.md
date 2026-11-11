@@ -6,8 +6,8 @@ A complete, high-performance web application featuring a fast client-side fronte
 
 ---
 
-## 🛠️ The Tech Stack
-* **Frontend:** HTML5, CSS, and JS.
+## 🛠️ Tools
+* **Frontend:** HTML5, CSS, and react.
 * **Backend:** FastAPI (Python), Pydantic (Data validation), and Uvicorn.
   
 ---
