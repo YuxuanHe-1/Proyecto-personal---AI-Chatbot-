@@ -1,10 +1,4 @@
----
 # AI Chatbot web🤖
----
-
-A complete, high-performance web application featuring a fast client-side frontend and a cloud-hosted asynchronous **FastAPI** Python backend engine. 
-
----
 
 ## 🛠️ Tools
 * **Frontend:** HTML5, CSS, and react.
